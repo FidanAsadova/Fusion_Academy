@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.2 | 20191019
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#dashboardSec .dashboard #leftGroup .darkBlueSec {
+  background-color: #031333;
+  padding-bottom: 30px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft {
+  padding: 50px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .logo .logoImg {
+  width: 169px;
+  height: 137px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .navBar {
+  margin-top: 50px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .navBar ul li {
+  margin-bottom: 10px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .navBar ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .navBar ul li a i {
+  margin-right: 10px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .navBar ul li a:hover {
+  border-bottom: 2px solid white;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .line {
+  display: inline-block;
+  margin-top: 120px;
+  padding: 0 100px;
+  border: 1px solid white;
+  opacity: 1;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .bottomNav {
+  margin-top: 30px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .bottomNav ul li {
+  margin-bottom: 10px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .bottomNav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .bottomNav ul li a i {
+  margin-right: 10px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .bottomNav ul li a:hover {
+  border-bottom: 2px solid white;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .editProfile {
+  margin-top: 130px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .editProfile .editPen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .editProfile .editPen a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#dashboardSec .dashboard #leftGroup .darkBlueSec .topLeft .editProfile .editPen .fa-pen-to-square {
+  display: inline;
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=dashboard.css.map */
